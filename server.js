@@ -1,5 +1,4 @@
 const app = require("./app");
-// mongodb+srv://Serzh:QrFaNAeNdlVCk5CD@cluster0.fkv4dak.mongodb.net/db-contacts?retryWrites=true&w=majority
 const mongoose = require("mongoose");
 require("dotenv").config();
 const { DB_HOST, PORT = 3000 } = process.env;
